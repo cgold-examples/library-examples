@@ -1,8 +1,10 @@
 cmake_minimum_required(VERSION 2.8)
-project(foo)
+project(baz)
 
-add_library(boo Boo.cpp Boo.hpp)
-add_library(foo Foo.cpp Foo.hpp)
+include_directories(${CMAKE_CURRENT_LIST_DIR}) # for '#include <boo/Boo.hpp>'
+
+add_subdirectory(boo)
+add_subdirectory(foo)
 
 add_executable(baz main.cpp)
 target_link_libraries(baz foo)

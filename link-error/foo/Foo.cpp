@@ -1,5 +1,5 @@
 #include "Foo.hpp"
-#include "Boo.hpp"
+#include "boo/Boo.hpp"
 
 int Foo::foo(int, char) {
   Boo boo;
