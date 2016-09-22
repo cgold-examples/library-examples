@@ -1,4 +1,6 @@
-#include "Foo.hpp"
+// foo/Foo.cpp
+
+#include "foo/Foo.hpp"
 #include "boo/Boo.hpp"
 
 int Foo::foo(int, char) {

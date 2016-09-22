@@ -1,3 +1,5 @@
+// boo/Boo.hpp
+
 #ifndef BOO_HPP_
 #define BOO_HPP_
 

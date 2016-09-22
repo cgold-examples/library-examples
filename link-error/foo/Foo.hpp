@@ -1,3 +1,5 @@
+// foo/Foo.hpp
+
 #ifndef FOO_HPP_
 #define FOO_HPP_
 
