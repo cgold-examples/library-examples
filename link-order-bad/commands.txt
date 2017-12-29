@@ -1,0 +1,3 @@
+rm -rf _builds
+cmake -Hlibrary-examples/link-order-bad -B_builds -DCMAKE_VERBOSE_MAKEFILE=ON
+cmake --build _builds
